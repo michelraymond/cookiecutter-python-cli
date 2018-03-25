@@ -7,7 +7,7 @@
 
 Simply run:
 
-    $ pip install .
+    $ pipenv install .
 
 
 # Usage
