@@ -9,12 +9,12 @@ Deals with all the boilerplate involved in the setuptools setup, etc.
 
 Here's my preferred path to bliss:
 
-1. Start by installing `pipsi`.  It's awesome.
-   [Instructions here.](https://github.com/mitsuhiko/pipsi#readme)
+1. Start by installing `pipenv`.  It's awesome.
+   `$ pip3 install --user pipenv`
 2. Now install Cookiecutter:
-   `$ pipsi install cookiecutter`.
+   `$ pipenv install cookiecutter`.
 3. Now use Cookiecutter to create your brand new project:
-   `$ cookiecutter https://github.com/nvie/cookiecutter-python-cli.git`
+   `$ cookiecutter https://github.com/michelraymond/cookiecutter-python-cli`
 
 
 ## How to answer these questions?
@@ -24,7 +24,7 @@ Here's what they're for:
 
 * `project_name` -- "My Tool"   (Used for marketing.  Keep it short and capitalize accordingly.)
 * `repo_name` -- "python-mytool"  (Name of the GitHub repo.)
-* `pypi_name` -- "mytool"   (Name on PyPI, i.e. what people type to `pipsi install`.)
+* `pypi_name` -- "mytool"   (Name on PyPI, i.e. what people type to `pip install`.)
 * `script_name` -- "my-tool"  (Binary of the script, i.e. what people will run on the command line.)
 * `package_name` -- "my_tool"  (Name of the Python module/package used internally.)
 
