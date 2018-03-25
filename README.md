@@ -32,3 +32,5 @@ Here's what they're for:
 ## License
 
 Liberally licensed under BSD terms.
+
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks!-%F0%9F%A6%89-1EAEDB.svg)](https://saythanks.io/to/michelraymond)
