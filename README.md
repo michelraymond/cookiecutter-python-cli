@@ -14,7 +14,7 @@ Here's my preferred path to bliss:
 2. Now install Cookiecutter:
    `$ pipenv install cookiecutter`.
 3. Now use Cookiecutter to create your brand new project:
-   `$ cookiecutter https://github.com/michelraymond/cookiecutter-python-cli`
+   `$ pipenv run cookiecutter https://github.com/michelraymond/cookiecutter-python-cli`
 
 
 ## How to answer these questions?
